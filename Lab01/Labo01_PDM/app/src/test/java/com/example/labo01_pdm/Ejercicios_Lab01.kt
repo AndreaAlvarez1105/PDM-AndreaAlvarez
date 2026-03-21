@@ -1,11 +1,10 @@
 package com.example.labo01_pdm
 
 import org.junit.Test
-import kotlin.math.ln
 
 class Computadora(
     val CPU: String,
-    var memoria_RAM: Int,
+    var memoriaRAM: Int,
     var OS: String,
     var almacenamiento: String,
     val Pantalla: Int
@@ -15,11 +14,23 @@ class Computadora(
     val programasActuales = programas.filter { it.contains("2026") }
 
     fun encender() {
-        println("Loading..........\n  Bienvenida! <3 \n------------------------")
+        println("------------------------\n Loading..........\n  Bienvenida! <3")
     }
 
     fun apagar() {
         println("Shutting down..........\n  Byee! \n------------------------")
+    }
+
+    fun actualizarRam(nuevaRam: Int) {
+        this.memoriaRAM = nuevaRam
+    }
+
+    fun actualizarOS(nuevoOs: String) {
+        this.OS = nuevoOs
+    }
+
+    fun actualizarAlmacenamiento(nuevoAlmacenamiento: String) {
+        this.almacenamiento = nuevoAlmacenamiento
     }
 }
 
@@ -58,10 +69,22 @@ class Ejercicios_Lab01 {
 
     @Test
     fun computadora() {
-        val micompu = Computadora("Intel Core i7", 16, "Windows", "SSD", 14)
+        val micompu = Computadora("Intel Core i7", 16, "Windows 11", "SSD 512GB", 14)
+
         micompu.encender()
+
+        println("Estado inicial: CPU ${micompu.CPU}, Pantalla ${micompu.Pantalla} inch, RAM ${micompu.memoriaRAM}GB, OS: ${micompu.OS},  Disco: ${micompu.almacenamiento}\n")
+
+        println("Programas de este año (2026): ${micompu.programasActuales}\n")
+
+        println("--- Realizando mejoras al equipo ---")
+        micompu.actualizarRam(32)
+        micompu.actualizarOS("Linux Ubuntu")
+        micompu.actualizarAlmacenamiento("NVMe 1TB")
+
+        println("\nEstado final: CPU ${micompu.CPU}, Pantalla ${micompu.Pantalla} inch, RAM ${micompu.memoriaRAM}GB, OS: ${micompu.OS}, Disco: ${micompu.almacenamiento}\n")
+
         micompu.apagar()
-        println("Programas actuales: " + micompu.programasActuales + "\n")
     }
 
     @Test
