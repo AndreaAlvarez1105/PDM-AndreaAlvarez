@@ -55,6 +55,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Ej14_PDMTheme {
+                Pantalla02()
 
             }
         }
@@ -118,66 +119,12 @@ fun Pantalla01() {
                     .padding(20.dp),
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    Text(
-                        "HUM",
-                        color = Color.White.copy(alpha = 0.4f)
-
-                    )
-
-                    Spacer(modifier = Modifier.height(5.dp))
-
-                    Text(
-                        "65%",
-                        fontSize = 24.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color.White
-
-                    )
-                }
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally
-
-                ) {
-                    Text(
-                        "VIENTO",
-                        color = Color.White.copy(alpha = 0.4f)
-
-                    )
-
-                    Spacer(modifier = Modifier.height(8.dp))
-
-                    Text(
-                        "12 km/h",
-                        fontSize = 24.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color.White
-
-                    )
-                }
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally
-
-                ) {
-                    Text(
-                        "LLUVIA",
-                        color = Color.White.copy(alpha = 0.4f)
-                    )
-
-                    Spacer(modifier = Modifier.height(8.dp))
-
-                    Text(
-                        "10%",
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 24.sp,
-                        color = Color.White
-
-                    )
-                }
+                DetallesClima("HUM", "65%")
+                DetallesClima("VIENTO", "12 km/h")
+                DetallesClima("LLUVIA", "10%")
             }
         }
+
 
         Spacer(modifier = Modifier.height(25.dp))
 
@@ -197,7 +144,30 @@ fun Pantalla01() {
             )
         }
 
+    }
+}
 
+
+@Composable
+fun DetallesClima(Categoria: String, valor: String) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            Categoria,
+            color = Color.White.copy(alpha = 0.4f)
+
+        )
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        Text(
+            valor,
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White
+
+        )
     }
 }
 
@@ -359,7 +329,6 @@ fun Pantalla02() {
     }
 
 }
-
 
 @Composable
 fun PronosticoPorHora(tiempo: String, emoji: String, temperatura: String) {
