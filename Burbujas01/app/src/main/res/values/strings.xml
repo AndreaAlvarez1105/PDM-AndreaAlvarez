@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Burbujas01</string>
+
+    <string-array name="priorities">
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+
+    <string-array name="statuses">
+        <item>Pendiente</item>
+        <item>En Progreso</item>
+        <item>Completada</item>
+    </string-array>
+</resources>

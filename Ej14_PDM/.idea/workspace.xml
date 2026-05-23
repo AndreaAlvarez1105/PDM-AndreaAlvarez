@@ -10,51 +10,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3213f3f-2494-4a59-ba87-b053e64840e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/androidTest/java/com/example/ej2_preparci_al/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/java/com/example/ej2_preparci_al/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/java/com/example/ej2_preparci_al/ui/theme/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/java/com/example/ej2_preparci_al/ui/theme/Theme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/java/com/example/ej2_preparci_al/ui/theme/Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/app/src/test/java/com/example/ej2_preparci_al/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ej2_Preparcial/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Permisos/app/src/main/java/com/example/permisos/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Permisos/app/src/main/java/com/example/permisos/device/DeviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Permisos/app/src/main/java/com/example/permisos/ui/theme/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Permisos/app/src/main/java/com/example/permisos/ui/theme/Theme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Permisos/app/src/main/java/com/example/permisos/ui/theme/Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Permisos/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjExtra_PDM/app/src/main/java/com/example/ej14_pdm/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../EjExtra_PDM/app/src/main/java/com/example/ej14_pdm/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/androidTest/java/com/example/labo03_00073824/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/java/com/example/labo03_00073824/HomeScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/java/com/example/labo03_00073824/ListaNombresScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/java/com/example/labo03_00073824/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/java/com/example/labo03_00073824/SensoresScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/java/com/example/labo03_00073824/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/java/com/example/labo03_00073824/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/java/com/example/labo03_00073824/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/app/src/test/java/com/example/labo03_00073824/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/settings.gradle.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[LocalEmulator::path=C:\Users\andre\.android\avd\Medium_Phone.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -94,20 +90,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/andre/Desktop/PDM-AndreaAlvarez/Ej14_PDM"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/Desktop/PDM-AndreaAlvarez/Ej14_PDM&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Ej14_PDM.app" />

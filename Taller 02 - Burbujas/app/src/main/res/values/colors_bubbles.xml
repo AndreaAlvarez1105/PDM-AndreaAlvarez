@@ -1,0 +1,7 @@
+<resources>
+    <color name="background_bubbles">#F5F5F7</color>
+    <color name="bubble_low">#5B8DEF</color>
+    <color name="bubble_medium">#F5A623</color>
+    <color name="bubble_high">#4CAF50</color>
+    <color name="bubble_critical">#E53935</color>
+</resources>
