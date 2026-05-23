@@ -1,4 +1,4 @@
-package com.example.lab_04_00073824.screen
+package com.example.lab_04_00073824.view
 
 
 import androidx.compose.foundation.background
@@ -37,12 +37,12 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import com.example.lab_04_00073824.components.TaskCard
 import com.example.lab_04_00073824.model.Task
-import com.example.lab_04_00073824.viewmodel.GeneralViewModel
+import com.example.lab_04_00073824.viewmodel.TaskViewModel
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TaskScreen(viewModel: GeneralViewModel) {
+fun TaskScreen(viewModel: TaskViewModel) {
     var showDialog by remember { mutableStateOf(false) }
     val taskList = remember { mutableStateListOf<Task>() }
 
