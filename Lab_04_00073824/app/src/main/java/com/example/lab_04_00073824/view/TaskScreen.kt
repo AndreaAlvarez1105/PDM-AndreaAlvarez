@@ -1,6 +1,5 @@
 package com.example.lab_04_00073824.view
 
-
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -38,47 +37,44 @@ import androidx.compose.ui.window.DialogProperties
 import com.example.lab_04_00073824.components.TaskCard
 import com.example.lab_04_00073824.model.Task
 import com.example.lab_04_00073824.viewmodel.TaskViewModel
-
+import androidx.compose.runtime.collectAsState
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TaskScreen(viewModel: TaskViewModel) {
     var showDialog by remember { mutableStateOf(false) }
-    val taskList = remember { mutableStateListOf<Task>() }
+    val taskList by viewModel.tasks.collectAsState()
 
     Scaffold(
         topBar = {
-            TopAppBar(title = {Text("Tasks list")})
+            TopAppBar(title = { Text("Tasks list") })
         },
         floatingActionButton = {
-            FloatingActionButton(onClick = {showDialog = true}) {
+            FloatingActionButton(onClick = { showDialog = true }) {
                 Icon(Icons.Default.Add, contentDescription = "Añadir")
             }
         }
     ) { paddingValues ->
         LazyColumn(modifier = Modifier.padding(paddingValues)) {
-            items(taskList){
-                    task ->
+            items(taskList) { task ->
                 TaskCard(task)
                 Spacer(modifier = Modifier.height(24.dp))
             }
         }
 
-        if (showDialog){
+        if (showDialog) {
             CreateTask(
                 onDismiss = { showDialog = false },
                 onTaskCreated = { newTitle, newDescription ->
                     val newTask = Task(
-                        id = taskList.size + 1,
                         title = newTitle,
                         description = newDescription
                     )
-                    taskList.add(newTask)
+                    viewModel.addTask(newTask)
                     showDialog = false
                 }
             )
         }
-
     }
 }
 
