@@ -93,6 +93,12 @@ fun MealScreen(viewModel: MealViewModel = viewModel()) {
                                 Text(
                                     text = "URL: " + meal.strMealThumb
                                 )
+
+                                /**
+                                 * No pude poner el meal.strArea porque me tiraba error.
+                                 * Abría la app y se cerraba al instanto, y solamenete me pasaba con ese dato.
+                                 */
+
                             }
                         }
                     }
